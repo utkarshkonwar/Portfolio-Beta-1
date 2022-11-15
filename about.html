@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <title>UK-About</title>
+   <!-- Css -->
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+   <link href="css/music.css" rel="stylesheet">
+</head>
+<body>
+   <div id="butter">
+      <script src="js/butter.js"></script>
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
+         <div class="col-md-12">
+            <div class="nav">
+               <button class="btn-nav">
+                  <span class="icon-bar top"></span>
+                  <span class="icon-bar middle"></span>
+                  <span class="icon-bar bottom"></span>
+               </button>
+            </div>
+            <a class="navbar-brand" href="index.html">
+               <img class="logo" src="img/logo.png" alt="logo">
+            </a>
+            <div class="nav-content hideNav hidden">
+               <ul class="nav-list vcenter">
+                  <li class="nav-item"><a class="item-anchor" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="about.html">About Me</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="exp.html">Experience</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="portfolio.html">Certificates</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="contact.html">Contact</a></li>
+                  
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="loader"></div>
+      <script>
+         window.addEventListener("load", () => {
+            const loader = document.querySelector(".loader");
+
+            loader.classList.add("loader--hidden");
+
+            loader.addEventListener("transitionend", () => {
+               document.body.removeChild(loader);
+            });
+         });
+      </script>
+      <!--main-->   
+      <div id="background112">
+         <section id="about">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h1>
+                        I'm nowhere near the adult my younger self dreamt of becoming,
+                        <br>
+                        But my adult self knows he'll get there
+                     </h1>
+                     <br>
+                     <!-- <img class="img-responsive margin-top-45" src="img/4.jpg" alt="me">-->
+                  </div>
+               </div>
+               <!--content-->
+               <br>
+               <div class="row margin-top-45">
+                  <div class="col-md-3">
+                     <h2>My story</h2>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                        My curiosity for the world Technology and Gadgets grew from the very naive age of 8 when I first
+                        laid
+                        my hands on a Desktop. Ever since then, my wish for learning more about technology has grown
+                        exponentially and as of now I'm pursuing the field of Computer Science Engineering.
+                     </p>
+                     <br>
+                     <p>
+                        Alongside my degree I work on a spectrum of projects ranging from a variety of fields. I try my
+                        hands
+                        on Writing, Marketing and obviously in the world of Computers. You can overview my projects from
+                        the
+                        Portfolio and Experience Tab
+                     </p>
+                  </div>
+               </div>
+               <div class="row margin-top-45">
+                  <div class="col-md-3">
+                     <h2>Services</h2>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                        My services are open to any client in search for a Frontend-Developer for thier projects, a
+                        Writer for
+                        documentation, or Marketing the product to the market.
+                     </p>
+                  </div>
+               </div>
+               <div class="row margin-top-45">
+                  <div class="col-md-3">
+                     <h2>Tech-Stack</h2>
+                  </div>
+                  <div class="col-md-9">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <ul class="list-unstyled">
+                              <li>
+                                 <h4>Programming Languages</h4>
+                              </li>
+                              <li>Python</li>
+                              <li>C,C++</li>
+                              <li>JavaScript</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-4">
+                           <ul class="list-unstyled">
+                              <li>
+                                 <h4>Website Development</h4>
+                              </li>
+                              <li>HTML</li>
+                              <li>CSS,CSS Tailwind, Bootstrap</li>
+                              <li>WordPress,Spline, <br>ScrollMagic, GSAP</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-4">
+                           <ul class="list-unstyled">
+                              <li>
+                                 <h4>Runtime Environments</h4>
+                              </li>
+                              <li>ReactJS</li>
+                              <li>React Native</li>
+                              <li>NodeJS</li>
+                           </ul>
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- script -->
+         <script src="js/jquery.js"></script>
+         <script src="js/bootstrap.min.js"></script>
+         <script src="js/modernizr.js"></script>
+         <script src="js/script.js"></script>
+      </div>
+   </div>
+</html>

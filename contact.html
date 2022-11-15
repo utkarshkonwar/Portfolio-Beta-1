@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <title>UK-Contact</title>
+   <!-- Css -->
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+   <link href="css/music.css" rel="stylesheet">
+</head>
+
+<body>
+   <nav class="navbar navbar-default color-fill navbar-fixed-top">
+      <div class="col-md-12">
+         <div class="nav">
+            <button class="btn-nav">
+               <span class="icon-bar top"></span>
+               <span class="icon-bar middle"></span>
+               <span class="icon-bar bottom"></span>
+            </button>
+         </div>
+         <a class="navbar-brand" href="index.html">
+            <img class="logo" src="img/logo.png" alt="logo">
+         </a>
+         <div class="nav-content hideNav hidden">
+            <ul class="nav-list vcenter">
+               <li class="nav-item"><a class="item-anchor" href="index.html">Home</a></li>
+               <li class="nav-item"><a class="item-anchor" href="about.html">About Me</a></li>
+               <li class="nav-item"><a class="item-anchor" href="exp.html">Experience</a></li>
+               <li class="nav-item"><a class="item-anchor" href="portfolio.html">Certificates</a></li>
+               <li class="nav-item"><a class="item-anchor" href="contact.html">Contact</a></li>
+
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <div class="loader"></div>
+   <script>
+      window.addEventListener("load", () => {
+         const loader = document.querySelector(".loader");
+
+         loader.classList.add("loader--hidden");
+
+         loader.addEventListener("transitionend", () => {
+            document.body.removeChild(loader);
+         });
+      });
+   </script>
+   <section>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h1>
+                  Feel free to contact me <br>
+                  I'd love to get in touch
+               </h1>
+               <h4><a href="mailto:utkarshkonwar@gmail.com">utkarshkonwar@gmail.com</a></h4>
+               <h4>+91 7002620217</h4>
+            </div>
+         </div>
+
+         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+         <a class="sicon" href="https://www.linkedin.com/in/utkarshkonwar/">
+
+            <ion-icon name="logo-linkedin"></ion-icon>
+         </a>
+         <a href="https://twitter.com/uttusaurus">
+
+            <ion-icon name="logo-twitter"></ion-icon>
+         </a>
+         <a href="https://www.quora.com/profile/Utkarsh-Konwar-1">
+            <ion-icon name="help-buoy-outline"></ion-icon>
+         </a>
+         <a href="https://drive.google.com/drive/folders/1Kgf9yMMPuf4-9uohYClCFrZk6d7VshGa?usp=share_link">
+
+            <ion-icon name="bookmarks-outline"></ion-icon>
+         </a>
+         <div class="rowrow12">
+            <div class="row margin-top-45">
+               <div class="col-md-12">
+                  <img class="img-responsive margin-top-45" src="img/m5.png" alt="me">
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </section>
+   <!-- script -->
+   <script src="js/jquery.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/modernizr.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
